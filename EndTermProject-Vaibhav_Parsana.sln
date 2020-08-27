@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndTermProject-Vaibhav_Parsana", "EndTermProject-Vaibhav_Parsana.csproj", "{6DC690CA-C249-4F41-9897-6FD522E74750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETP_Vaibhav_Parsana", "..\ETP_Vaibhav_Parsana\ETP_Vaibhav_Parsana.csproj", "{A98A54B2-D493-4E26-A038-D613623400CE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6DC690CA-C249-4F41-9897-6FD522E74750} = {6DC690CA-C249-4F41-9897-6FD522E74750}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DC690CA-C249-4F41-9897-6FD522E74750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC690CA-C249-4F41-9897-6FD522E74750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC690CA-C249-4F41-9897-6FD522E74750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC690CA-C249-4F41-9897-6FD522E74750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98A54B2-D493-4E26-A038-D613623400CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98A54B2-D493-4E26-A038-D613623400CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98A54B2-D493-4E26-A038-D613623400CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98A54B2-D493-4E26-A038-D613623400CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B869E18-269E-4558-B82D-9998CA0900DA}
+	EndGlobalSection
+EndGlobal
